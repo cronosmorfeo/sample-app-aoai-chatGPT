@@ -10,7 +10,7 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-
+    environment: Production
     steps:
     - name: Azure Container Registry Login
       uses: Azure/docker-login@v2
